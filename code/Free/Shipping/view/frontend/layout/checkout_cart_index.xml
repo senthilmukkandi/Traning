@@ -3,7 +3,7 @@
 <body>
     <referenceContainer name="cart.summary">
         <block name="summary.custom.block" class="Magento\Framework\View\Element\Template"  
-        template="Free_Shipping::cart-items.phtml" after="checkout.cart.shipping" />
+        template="Free_Shipping::custom-block.phtml" after="checkout.cart.shipping" />
     </referenceContainer>
 </body>
 </page>
